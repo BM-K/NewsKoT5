@@ -1,4 +1,4 @@
-# NewsT5
+# NewsKoT5
 The training data for this T5 model consists of Korean news articles. However, the performance has not been fine-tuned through the use of small batches and a limited number of training steps, so it may not be fully optimized.
 
 ## Quick tour
