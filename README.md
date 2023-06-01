@@ -8,8 +8,11 @@ from transformers import AutoTokenizer, T5ForConditionalGeneration
 tokenizer = AutoTokenizer.from_pretrained("BM-K/")
 model = T5ForConditionalGeneration.from_pretrained("BM-K/")
 
-inputs = tokenizer("안녕 세상아!", return_tensors="pt")
-outputs = model(**inputs)
+input_ids = tokenizer("한국형발사체 누리호가 실용급 <extra_id_0> 발사체로서 ‘데뷔’를 성공적으로 <extra_id_1>", return_tensors="pt").input_ids
+labels = tokenizer("<extra_id_0> 위성 <extra_id_1> 마쳤다 <extra_id_2>", return_tensors="pt").input_ids
+
+outputs = model(input_ids=input_ids,
+                labels=labels)
 ```
 
 ## News Summarization Performance (F1-score)
