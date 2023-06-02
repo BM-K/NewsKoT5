@@ -25,8 +25,8 @@ After restoring the model's tokenized output to the original text, Rouge perform
 
 | | #Param | rouge-1 |rouge-2|rouge-l|
 |-------|--------:|--------:|--------:|--------:|
-| pko-t5-small | 77M | - | - | - |
-| NewsT5-small | 77M | - | - | - |
+| pko-t5-small | 95M | - | - | - |
+| NewsT5-small | 61M | - | - | - |
 
 - AI-Hub 문서요약 텍스트 [Dataset](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=97)
     - Training: -
@@ -35,7 +35,7 @@ After restoring the model's tokenized output to the original text, Rouge perform
 
 | | #Param | rouge-1 |rouge-2|rouge-l|
 |-------|--------:|--------:|--------:|--------:|
-| pko-t5-small | 77M | - | - | - |
-| NewsT5-small | 77M | - | - | - |
+| pko-t5-small | 95M | - | - | - |
+| NewsT5-small | 61M | - | - | - |
 
 - [pko-t5-small](https://github.com/paust-team/pko-t5)
