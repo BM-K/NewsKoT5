@@ -16,6 +16,8 @@ outputs = model(input_ids=input_ids,
 ```
 
 ## News Summarization Performance (F1-score)
+After restoring the model's tokenized output to the original text, Rouge performance was evaluated by comparing it to the reference and hypothesis tokenized using mecab.
+
 - Dacon 한국어 문서 생성요약 AI 경진대회 [Dataset](https://dacon.io/competitions/official/235673/overview/description)
     - Training: -
     - Validation: -
